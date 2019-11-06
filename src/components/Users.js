@@ -27,7 +27,7 @@ class Users extends Component {
 }
 
 //add mapStateToProps here
-mapStateToProps = state => ({
+const mapStateToProps = state => ({
    users: state.users, userCount: state.users.length
 })
 
