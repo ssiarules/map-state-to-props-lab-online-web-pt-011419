@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App'
+import Connect from '../manageUsers'
 
 import manageUsers from './reducers/manageUsers'
 
