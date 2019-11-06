@@ -31,4 +31,4 @@ const mapStateToProps = state => ({ users: state.users, userCount: state.users.l
 
 
 // connect this component to Redux
-export default connect (mapStateToProps)(Users)
+export default connect(mapStateToProps)(Users)
