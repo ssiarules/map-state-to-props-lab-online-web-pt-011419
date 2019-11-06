@@ -20,6 +20,7 @@ class Users extends Component {
         <ul>
           {this.renderUser()}
         </ul>
+          <h3> Total Users: {this.props.userCount}</h3>
       </div>
     )
   }
