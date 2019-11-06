@@ -5,10 +5,12 @@ import ConnectedUsers from './components/Users'
 class App extends Component {
   render() {
     return (
+      <Provider />
       <div className="App">
         <UserInput />
         <ConnectedUsers />
       </div>
+      </Provider >
     );
   }
 }
