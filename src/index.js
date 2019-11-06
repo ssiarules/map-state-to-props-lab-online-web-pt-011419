@@ -13,8 +13,10 @@ import manageUsers from './reducers/manageUsers'
 
 ReactDOM.render(
   // add imports and code
+  < Provider />
   <App />
   // add imports and code
+  </Provider >
   ,
   document.getElementById('root')
 );
