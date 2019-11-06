@@ -9,6 +9,7 @@ import manageUsers from './reducers/manageUsers'
 
 
 // add imports and code
+const store = createStore (manageUsers)
 
 
 ReactDOM.render(
